@@ -5,7 +5,7 @@ import createFunctionsCache from './utilities/createFunctionsCache'
 
 const functions = createFunctionsCache();
 
-const memorize = fn => {
+export default fn => {
   const cachedMemorizer = functions.getMemorizer(fn);
   if (cachedMemorizer) return cachedMemorizer;
 
@@ -28,6 +28,6 @@ const memorize = fn => {
   };
 
   functions.addMemorizer(fn, memorizer);
-  
+
   return memorizer;
 };
