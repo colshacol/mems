@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "A memoisation tool.",
   "keywords": ["memorization", "memoisation", "memo"],
+  "main": "src/index.js",
   "author": {
     "name": "Colton Colcleasure",
     "email": "colshacol@gmail.com",
@@ -12,10 +13,7 @@
     "type": "git",
     "url": "https://github.com/colshacol/mems"
   },
-  "main": "src/index.js",
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
         "react": "16.5.2",
         "react-dom": "16.5.2",
@@ -24,8 +22,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "jest"
   },
   "browserslist": [
     ">0.2%",
