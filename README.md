@@ -1,12 +1,12 @@
 # mems
 
-A memoisation utility.
+A memoization utility.
 
 ## Usage
 
 A simple example exhibiting how the same exact value is returned
 for each invocation of `makeDoubleArray`, although the function
-itself would generate a brand new array without memoisation.
+itself would generate a brand new array without memoization.
 
 ```js
 import mems from 'mems'
@@ -18,7 +18,7 @@ const main = () => {
   const b = makeDoubleArray(1, 2);
   const c = makeDoubleArray(1, 2);
 
-  // NOTE: Without memoisation, each of the returned values
+  // NOTE: Without memoization, each of the returned values
   // would be an entirely new array, so the following strict
   // eqality checks would all evaluate to false.
   console.log(a === b, b === c, a === c);

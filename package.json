@@ -1,8 +1,8 @@
 {
   "name": "mems",
   "version": "0.0.1",
-  "description": "A memoisation tool.",
-  "keywords": ["memorization", "memoisation", "memo"],
+  "description": "A memoization tool.",
+  "keywords": ["memorization", "memoization", "memo"],
   "main": "./dist/index.js",
   "author": {
     "name": "Colton Colcleasure",
