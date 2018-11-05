@@ -1,7 +1,6 @@
 import createFunctionsCache from './utilities/createFunctionsCache'
 import createArgumentsCache from './utilities/createArgumentsCache'
 import createResultsCache from './utilities/createResultsCache'
-import createFunctionsCache from './utilities/createFunctionsCache'
 
 const functions = createFunctionsCache();
 
